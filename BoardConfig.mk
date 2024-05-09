@@ -15,6 +15,7 @@
 #
 
 DEVICE_PATH := device/infinix/rocko
+VENDOR_PATH := vendor/infinix/rocko-prebuilt
 
 # A/B
 AB_OTA_UPDATER := true
@@ -162,6 +163,11 @@ BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6768
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_HAS_LARGE_FILESYSTEM := true
+
+# Prebuilts
+TARGET_USES_PREBUILT_DYNAMIC_PARTITIONS := true
+BUILD_WITHOUT_VENDOR := true
+BOARD_PREBUILT_VENDORIMAGE := $(VENDOR_PATH)/vendor.img
 
 # Firmware
 -include device/infinix/rocko-firmware/BoardConfigFirmware.mk
