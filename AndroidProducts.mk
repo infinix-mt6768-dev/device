@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/lineage_X693.mk
+   $(LOCAL_DIR)/lineage_rocko.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_X693-user \
-    lineage_X693-userdebug \
-    lineage_X693-eng
+    lineage_rocko-user \
+    lineage_rocko-userdebug \
+    lineage_rocko-eng

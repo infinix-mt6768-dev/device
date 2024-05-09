@@ -15,7 +15,7 @@
 #
 
 # Inherit from merlin device makefile
-$(call inherit-product, device/infinix/X693/device.mk)
+$(call inherit-product, device/infinix/rocko/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -26,8 +26,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := X693
-PRODUCT_NAME := lineage_X693
+PRODUCT_DEVICE := rocko
+PRODUCT_NAME := lineage_rocko
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix NOTE 10
 PRODUCT_MANUFACTURER := Infinix

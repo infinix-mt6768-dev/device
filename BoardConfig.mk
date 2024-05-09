@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/infinix/X693
+DEVICE_PATH := device/infinix/rocko
 
 # A/B
 AB_OTA_UPDATER := true
@@ -123,7 +123,7 @@ BOARD_MAIN_PARTITION_LIST := \
 BOARD_SUPER_PARTITION_ERROR_LIMIT := 6012043264
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := X693
+TARGET_OTA_ASSERT_DEVICE := X693, rocko
 
 # Verified Boot
 BOARD_AVB_ENABLE := true

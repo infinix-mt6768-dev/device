@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=X693
+DEVICE=rocko
 VENDOR=infinix
 
 INITIAL_COPYRIGHT_YEAR=2020

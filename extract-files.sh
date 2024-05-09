@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=X693
+DEVICE=rocko
 VENDOR=infinix
 
 # Load extract_utils and do some sanity checks
